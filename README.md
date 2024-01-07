@@ -24,7 +24,11 @@ ps -ef
 
 
 python3 monitor.py
+
+
 或者使用nohup来后台运行脚本
+
+
 nohup python3 monitor.py > output.log &
 4.关闭脚本
 pkill python3
