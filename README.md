@@ -36,3 +36,5 @@ nohup python3 monitor.py > output.log &
 
 
 pkill python3
+
+5.smtp邮件可以用brevo.com这个免费的也可以用谷歌邮箱或者outlook 但是这些smtp难登录
