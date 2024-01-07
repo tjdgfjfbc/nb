@@ -30,5 +30,9 @@ python3 monitor.py
 
 
 nohup python3 monitor.py > output.log &
+
+
 4.关闭脚本
+
+
 pkill python3
