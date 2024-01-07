@@ -41,7 +41,7 @@ def job():
     else:
         print("App is running")
 
-schedule.every(5).seconds.do(job)  # 每5秒运行一次检查
+schedule.every(60).seconds.do(job)  # 每60秒运行一次检查你也可以自己设置多少秒检查一次修改60就可以了
 
 while True:
     schedule.run_pending()
